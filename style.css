@@ -5,7 +5,7 @@ body {
   font-family: Lato, sans-serif;
 }
 ul li input[type=text] {
-  display:none
+  display: none
 }
 .header {
   width: 500px;
@@ -25,7 +25,7 @@ ul li input[type=text] {
   .header {
     text-align: center;
   }
-  
+
 }
 .main {
   display: block;
@@ -41,14 +41,14 @@ ul li input[type=text] {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .main__btn,
 .delete-btn,
@@ -152,9 +152,9 @@ input,button{
 
 /* Edit Task */
 .main__edit-mode .main__task-input{
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 .main__edit-mode .main__task-name {
-  display:none;
+  display: none;
 }
