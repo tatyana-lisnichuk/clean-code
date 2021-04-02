@@ -35,7 +35,7 @@ ul li input[type=text] {
 .main__new-task-input {
   width: 56%;
   display: inline-block;
-  /* flex-grow: 1; */
+  flex-grow: 1;
 }
 .main__new-task-wrap {
   display: flex;
@@ -124,8 +124,8 @@ button {
   font-size: 18px;
   width: 226px;
 }
-.main__task-input {
-  width: 226px;
+.main__task-input{
+    width: 226px;
 }
 /* li > button .delete-btn:hover {
   color: #cf2323;
