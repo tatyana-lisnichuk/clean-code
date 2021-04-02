@@ -5,7 +5,7 @@ body {
   font-family: Lato, sans-serif;
 }
 ul li input[type=text] {
-  display: none
+  display: none;
 }
 .header {
   width: 500px;
@@ -35,7 +35,7 @@ ul li input[type=text] {
 .main__new-task-input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .main__new-task-wrap {
   display: flex;
@@ -52,7 +52,7 @@ input,button{
 }
 .main__btn,
 .delete-btn,
-.edit-btn{
+.edit-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -63,7 +63,7 @@ input,button{
 }
 .main__btn:hover,
 .delete-btn:hover,
-.edit-btn:hover{
+.edit-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -129,7 +129,7 @@ input,button{
   width: 226px;
 }
 .main__task-input{
-    width: 226px
+    width: 226px;
 }
 /* li > button .delete-btn:hover {
   color: #cf2323;
@@ -153,7 +153,7 @@ input,button{
 /* Edit Task */
 .main__edit-mode .main__task-input{
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 .main__edit-mode .main__task-name {
   display: none;
