@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'">
@@ -16,13 +17,13 @@
     <p class="main__new-item-sect" id="new-item-sect">
       <label class="main__h3" for="new-task">Add Item</label>
       <div class="main__new-task-wrap">
-        <input class="main__new-task-input" id="new-task" type="text">
+        <input class="main__task-input" id="new-task" type="text">
         <button class="main__btn" id="add-btn">Add</button>
       </div>
     </p>
     <h3 class="main__h3">Todo</h3>
     <ul class="main__incomplete-tasks-list" id="incomplete-tasks-list">
-      <li class="main__incomplete-tasks-item">
+      <li class="main__incomplete-tasks-item main__tasks-item">
         <input 
             class="main__checkbox" 
             type="checkbox">
@@ -34,11 +35,12 @@
         <button class="main__btn edit-btn">Edit</button>
         <button class="main__btn delete-btn">
           <img 
-              class="main__delete-btn-img" 
+              class="main__delete-btn-img"
+              alt="delete button"
               src="./remove.svg">
         </button>
       </li>
-      <li class="main__edit-mode">
+      <li class="main__edit-mode main__tasks-item">
         <input 
             class="main__checkbox" 
             type="checkbox">
@@ -54,16 +56,18 @@
         <button class="main__btn delete-btn">
           <img 
               class="main__delete-btn-img"
-              src="./remove.svg"></button>
+              src="./remove.svg"
+              alt="delete button">
+        </button>
       </li>
     </ul>
     <h3 class="main__h3">Completed</h3>
     <ul 
         class="main__completed-tasks-list" 
         id="completed-tasks">
-      <li class="main__completed-tasks-item">
+      <li class="main__completed-tasks-item main__tasks-item">
         <input class="main__checkbox" type="checkbox" checked>
-        <label class="main__task-name">See the Doctor</label>
+        <label class="main__task-name completed-tasks-label">See the Doctor</label>
         <input 
             type="text" 
             class="main__task-input">
@@ -71,7 +75,9 @@
         <button class="main__btn delete-btn">
           <img 
               class="main__delete-btn-img"
-              src="./remove.svg"></button>
+              src="./remove.svg"
+              alt="delete button">
+        </button>
       </li>
     </ul>
   </div>
