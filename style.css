@@ -47,7 +47,8 @@ ul {
 li, h3 {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 .main__btn,
@@ -67,7 +68,7 @@ input,button{
   color: #3a3a3a;
 }
 /* Heading */
-.main__h3{
+.main__h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -105,11 +106,10 @@ input,button{
 }
 
 /* Task list */
-.main__tasks-item{
+.main__tasks-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
