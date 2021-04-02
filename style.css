@@ -124,8 +124,8 @@ button {
   font-size: 18px;
   width: 226px;
 }
-.main__task-input{
-    width: 226px;
+.main__task-input {
+  width: 226px;
 }
 /* li > button .delete-btn:hover {
   color: #cf2323;
